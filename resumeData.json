@@ -1,14 +1,15 @@
 {
   "main": {
-    "name":"Stroke and Circle",
-    "description":"Unique papercuts",
+    "name":"stroke and circle",
+    "description":"unique papercuts",
     "image":"profilepic.jpg",
-    "bio":"Hi! Ich bin Hannah und hab während des Lockdowns vor zwei Jahren das Papercutting für mich entdeckt. Dabei ritzt man mit einem Cuttermesser filigrane Muster in Papier. Schnitt für Schnitt entstehen so individuelle Kunstwerke. Ich mag daran besonders die Einfachheit der Materialien in Kombination mit der Vielfalt an Farben und Formen. Das Schneiden ist für mich wahnsinnig meditativ und ich vergesse dabei alles um mich herum. Es würde mich total freuen, wenn ihr mich an meinem Stand besucht und ich euch meine Leidenschaft näher bringen kann.",
+    "bio_1":"Ich bin Hannah und habe während des Corona Lockdowns 2020 das Papercutting für mich entdeckt. Dabei ritzt man mit einem Cuttermesser filigrane Muster in Papier. Schnitt für Schnitt entstehen so individuelle Kunstwerke. Inspiriert werde Ich vor allem von der Natur und deren Mustern, die mir alltäglich begegnen. Immer wieder bin Ich begeistert davon, wie unterschiedlich bestimmte Farben aufeinander wirken.",
+    "bio_2":"Ich mag daran besonders die Einfachheit der Materialien in Kombination mit der Vielfalt an Farben und Formen. Das Schneiden ist für mich wahnsinnig meditativ und ich vergesse dabei alles um mich herum.",
     "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
-    "email": "hannah.sattler@strokeandcircle.de",
+    "email": "hannah.sattler1991@googlemail.com",
     "phone": "555-555-5555",
     "address":{
-      "street":"Lindwurmstraße 30",
+      "street":"Lindwurmstraße",
       "city":"München",
       "state":"(Your State)",
       "zip": "80337"
@@ -32,27 +33,23 @@
   "portfolio":{
     "projects": [
       {
-        "title":"Canadian Wanderlust",
-        "category":"My Travel Blog for my post-university travels",
-        "image":"img01.jpg",
+        "title": "Scherenschnitt1",
+        "image":"img04.jpg",
         "url":"https://www.canadianwanderlust.com"
       },
       {
-        "title":"Fury Fighting Gear",
-        "category":"(offline now) A fighting gear company I started",
+        "title": "Scherenschnitt2",
         "image":"img02.jpg",
         "url":"http://www.timbakerdev.com"
       },
       {
-        "title":"Original Thai Food",
-        "category":"Website I built for a restaurant I like in Thailand",
+        "title": "Scherenschnitt3",
         "image":"img03.jpg",
         "url":"http://www.timbakerdev.com/originalthaifood.github.io"
       },
       {
-        "title":"Resume Website",
-        "category":"A React based resume website template",
-        "image":"img04.jpg",
+        "title": "Scherenschnitt4",
+        "image":"img01.jpg",
         "url":"http://www.timbakerdev.com"
       }
     ]
