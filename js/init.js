@@ -1,8 +1,6 @@
 jQuery(document).ready(function($) {
   var time = 380;
   setTimeout(function() {
-    $("h1.responsive-headline").fitText(1, { minFontSize: "40px", maxFontSize: "90px" });
-
     $(".smoothscroll").on("click", function(e) {
       e.preventDefault();
       var target = this.hash,
@@ -40,9 +38,9 @@ jQuery(document).ready(function($) {
       offset: "35%"
     });
 
-    $("header").css({ height: $(window).height() });
+    // $("header").css({ height: $(window).height() });
     $(window).on("resize", function() {
-      $("header").css({ height: $(window).height() });
+      // $("header").css({ height: $(window).height() });
       $("body").css({ width: $(window).width() });
     });
 
@@ -72,47 +70,6 @@ jQuery(document).ready(function($) {
       slideshowSpeed: 7000,
       animationSpeed: 600,
       randomize: false
-    });
-
-    $("form#contactForm button.submit").click(function() {
-      $("#image-loader").fadeIn();
-
-      var contactName = $("#contactForm #contactName").val();
-      var contactEmail = $("#contactForm #contactEmail").val();
-      var contactSubject = $("#contactForm #contactSubject").val();
-      var contactMessage = $("#contactForm #contactMessage").val();
-
-      var data =
-        "contactName=" +
-        contactName +
-        "&contactEmail=" +
-        contactEmail +
-        "&contactSubject=" +
-        contactSubject +
-        "&contactMessage=" +
-        contactMessage;
-
-      $.ajax({
-        type: "POST",
-        url: "inc/sendEmail.php",
-        data: data,
-        success: function(msg) {
-          // Message was sent
-          if (msg == "OK") {
-            $("#image-loader").fadeOut();
-            $("#message-warning").hide();
-            $("#contactForm").fadeOut();
-            $("#message-success").fadeIn();
-          }
-          // There was an error
-          else {
-            $("#image-loader").fadeOut();
-            $("#message-warning").html(msg);
-            $("#message-warning").fadeIn();
-          }
-        }
-      });
-      return false;
     });
   }, time);
 });

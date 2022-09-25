@@ -30,7 +30,6 @@ body { background: #0f0f0f; }
 
 header {
    position: relative;
-   height: 800px;
    min-height: 500px;
    width: 100%;
    text-align: center;
@@ -47,7 +46,7 @@ header .banner {
    display: inline-block;
    vertical-align: middle;
    margin: 0 auto;
-   width: 85%;
+   width: 100%;
    padding-bottom: 30px;
    text-align: center;
 }
@@ -57,7 +56,6 @@ header .banner-text h1 {
    font: 90px/1.1em 'Raleway', sans-serif;
     font-weight: 100;
    color: #fff;
-   letter-spacing: -2px;
    margin: 0 auto 18px auto;
 }
 header .banner-text h3 {

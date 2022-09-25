@@ -1,7 +1,7 @@
 {
   "main": {
     "name":"Stroke and Circle",
-    "description":"This is sustainable, vegan,Papercut, Scherenschnitte, Artwork. Kunst, besser als sonstiger Bullshit den man so auf der Welt findet",
+    "description":"Unique papercuts",
     "image":"profilepic.jpg",
     "bio":"Hi! Ich bin Hannah und hab während des Lockdowns vor zwei Jahren das Papercutting für mich entdeckt. Dabei ritzt man mit einem Cuttermesser filigrane Muster in Papier. Schnitt für Schnitt entstehen so individuelle Kunstwerke. Ich mag daran besonders die Einfachheit der Materialien in Kombination mit der Vielfalt an Farben und Formen. Das Schneiden ist für mich wahnsinnig meditativ und ich vergesse dabei alles um mich herum. Es würde mich total freuen, wenn ihr mich an meinem Stand besucht und ich euch meine Leidenschaft näher bringen kann.",
     "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
@@ -24,7 +24,7 @@
       },
       {
         "name":"instagram",
-        "url":"http://instagram.com/tbaker_x",
+        "url":"https://www.instagram.com/strokeandcircle/",
         "className":"fa fa-instagram"
       }
     ]
