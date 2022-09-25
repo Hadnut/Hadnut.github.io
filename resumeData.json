@@ -34,23 +34,35 @@
     "projects": [
       {
         "title": "Scherenschnitt1",
-        "image":"img04.jpg",
-        "url":"https://www.canadianwanderlust.com"
+        "image":"img04.jpg"
       },
       {
         "title": "Scherenschnitt2",
-        "image":"img02.jpg",
-        "url":"http://www.timbakerdev.com"
+        "image":"img02.jpg"
       },
       {
         "title": "Scherenschnitt3",
-        "image":"img03.jpg",
-        "url":"http://www.timbakerdev.com/originalthaifood.github.io"
+        "image":"img03.jpg"
       },
       {
         "title": "Scherenschnitt4",
-        "image":"img01.jpg",
-        "url":"http://www.timbakerdev.com"
+        "image":"img01.jpg"
+      },
+      {
+        "title": "Scherenschnitt5",
+        "image":"img05.jpg"
+      },
+      {
+        "title": "Scherenschnitt6",
+        "image":"img08.jpg"
+      },
+      {
+        "title": "Scherenschnitt7",
+        "image":"img06.jpg"
+      },
+      {
+        "title": "Scherenschnitt8",
+        "image":"img07.jpg"
       }
     ]
   }
